@@ -4,17 +4,22 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* body{
+    width: 100vw;
+    overflow-x: hidden;
+} */
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
+    width: 100%;
     /* padding: 0 10%; */
     position: fixed;
     padding-left: 5%;
     top: 0;
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -25,6 +30,9 @@ header{
 .menu li{
     margin: 0 15px;
     list-style: none;
+    text-align: center;
+    align-content: center;
+    height: 50px;
 }
 .menu li a{
     font-size: 14px;
@@ -33,6 +41,13 @@ header{
     position: relative;
     font-weight: bold;
 }
+.fabr{
+    border-bottom: 5px solid #d00434;
+    color: #d00434;
+}
+.menu li a span{
+    color: #d00434;
+} 
 select{
     color: #d00434;
     background-color: transparent;

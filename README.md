@@ -1,0 +1,1 @@
+Ce site présente diverses sections telles que l'historique de Simplon, sa méthode d'enseignement, ses valeurs, son équipe
