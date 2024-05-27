@@ -4,22 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/* body{
-    width: 100vw;
-    overflow-x: hidden;
-} */
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
     width: 100%;
-    /* padding: 0 10%; */
     position: fixed;
     padding-left: 5%;
     top: 0;
-    /* left: 0;
-    right: 0; */
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -79,7 +72,6 @@ header .contact:hover{
     display: flex;
     flex-direction: column;
     margin-top: 56px;
-    /* border: 1px solid black; */
 }
 .fabrique .top{
     width: 100%;
@@ -95,7 +87,6 @@ header .contact:hover{
     margin-left: 0;
     display: flex;
     margin-top: 20px;
-    /* border: 1px solid black; */
 }
 .fabrique .center .left{
     width:55.5%;
@@ -115,7 +106,6 @@ header .contact:hover{
     box-shadow: 
     0px 10px #de5e7d,
     0px 20px #efbcc8;
-    /* box-shadow:-30px rgba(222,94,125,255); */
 }
 .fabrique .center .left .leftin span{
     font-size: 40px;
@@ -177,7 +167,6 @@ header .contact:hover{
     width: 100%;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid black; */
     height: 100px;
     font-size: 25px;
 }
@@ -282,13 +271,11 @@ header .contact:hover{
 .piliers .left .bottom{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
     gap: 40px;
     width: 90%;
     margin-left: 110px;
     margin-top: 20px;
     position: relative;
-    /* border: 1px solid black; */
 }
 .piliers .left .bottom .item{
     width: 270px;
@@ -511,7 +498,6 @@ header .contact:hover{
     height: 200px;
     background-color: #d00434;
     justify-content: center;
-    /* align-items: center; */
 }
 .chiffre .bottom .bottomin{
     width: 340px;
@@ -561,10 +547,8 @@ header .contact:hover{
     flex-direction: column;
     width: 330px;
     height: 410px;
-    /* align-items: center; */
     justify-content: center;
     padding-left: 40px;
-    /* gap: 20px; */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 .equipe .center .centerin .top-formateur{
